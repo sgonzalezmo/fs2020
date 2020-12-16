@@ -37,6 +37,8 @@ resource "ibm_is_subnet" "subnet2" {
   depends_on      = [ibm_is_vpc_address_prefix.vpc-ap2]
 }
 
+/*
+
 resource "ibm_is_instance" "instance1" {
   name    = "instance1"
   image   = var.image
@@ -96,3 +98,5 @@ resource "ibm_is_security_group_rule" "sg1_tcp_rule_80" {
     port_max = "80"
   }
 }
+
+*/
